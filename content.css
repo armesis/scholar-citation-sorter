@@ -1,0 +1,35 @@
+#gcs-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 12px;
+  padding: 8px 10px;
+  border: 1px solid #dadce0;
+  border-radius: 6px;
+  background: #f8f9fa;
+  font: 13px Arial, sans-serif;
+  color: #202124;
+}
+#gcs-bar button,
+#gcs-bar select {
+  font: inherit;
+  padding: 4px 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+#gcs-bar button:hover { background: #f1f3f4; }
+#gcs-bar button:disabled { opacity: .5; cursor: default; }
+#gcs-status { color: #5f6368; }
+.gcs-count {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 6px;
+  border-radius: 3px;
+  background: #1a73e8;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
